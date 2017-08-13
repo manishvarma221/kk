@@ -56,7 +56,7 @@ angular.module('mm.addons.remotestyles', [])
     // Disable added styles on logout.
     $mmEvents.on(mmCoreEventLogout, $mmaRemoteStyles.clear);
 
-    // // Remove site styles on logout.
+    // Remove site styles on logout.
     $mmEvents.on(mmCoreEventSiteDeleted, function(site) {
         $mmaRemoteStyles.removeSite(site.id);
     });

@@ -11,7 +11,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-// enable-menu-with-back-views="true"
+
 angular.module('mm.core.sidemenu', [])
 
 .config(function($stateProvider) {
@@ -24,7 +24,6 @@ angular.module('mm.core.sidemenu', [])
         controller: 'mmSideMenuCtrl',
         abstract: true,
         cache: false,
-        
         onEnter: function($ionicHistory, $state, $mmSite) {
             // Remove the login page from the history stack.
             $ionicHistory.clearHistory();

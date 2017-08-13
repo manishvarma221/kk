@@ -6,7 +6,7 @@
     "createaccount": "Create my new account",
     "createuserandpass": "Choose your username and password",
     "credentialsdescription": "Please provide your username and password to log in.",
-    "confirmdeletesite": "Are you sure you want to delete the site {{sitename}}?",
+    "confirmdeletesite": "Are you sure you want to log out?",
     "connect": "Connect!",
     "connecttomoodle": "Connect to Moodle",
     "contactyouradministrator": "Contact your site administrator for further help.",
