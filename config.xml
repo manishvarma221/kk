@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moodle.moodlemobile" version="3.3.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="xyz.manishvarma.mvlearning" version="3.3.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>    
-            JNTUK E-Medha
+            MV Learning
     </name>
     <description>
-            Official Moodle Mobile app for JNTU KAKINADA
+            Offcial learning app of MV
     </description>
-    <author email="mobile@moodle.com" href="http://moodle.com">
+    <author email="manishva@manishvarma.xyz" href="https://manishvarma.xyz">
              Developed by PeerXP
     </author>
     <content src="index.html" />
